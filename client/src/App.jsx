@@ -5,9 +5,11 @@ import Customizer from "./pages/Customizer";
 
 const App = () => {
   return (
-    <div className="">
+    <main className="app transition-all ease-in">
       <Home />
-    </div>
+      <Canvas />
+      <Customizer />
+    </main>
   );
 };
 
