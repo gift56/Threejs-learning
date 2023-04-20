@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <AnimatePresence>
       {snap.intro && (
-        <motion.section className="home" {...slideAnimation("left")}>
+        <motion.section className="home" {...slideAnimation('left')}>
           <motion.header {...slideAnimation("down")}>
             <img
               src="./threejs.png"
@@ -24,7 +24,7 @@ const Home = () => {
               className="w-8 h-8 object-contain"
             />
           </motion.header>
-          <motion.div {...headContentAnimation}>
+          <motion.div className="home-content" {...headContentAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text uppercase">
                 Let's <br className="xl:block hidden" /> do it.
