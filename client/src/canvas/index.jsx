@@ -6,7 +6,7 @@ import CameraRig from "./CameraRig";
 import Backdrop from "./BackDrop";
 
 const CanvasModel = () => {
-  return <div>Canvas</div>;
+  return <Canvas></Canvas>;
 };
 
 export default CanvasModel;
