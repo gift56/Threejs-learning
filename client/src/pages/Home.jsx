@@ -7,8 +7,11 @@ import {
   headTextAnimation,
   slideAnimation,
 } from "../config/motion";
+import state from "../store";
 
 const Home = () => {
+  const snap = useSnapshot(state);
+  
   return <div>Home</div>;
 };
 
