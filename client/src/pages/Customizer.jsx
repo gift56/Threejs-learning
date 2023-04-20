@@ -41,6 +41,14 @@ const Customizer = () => {
     }
   };
 
+  const readFile = (type) => {
+    reader(file)
+      .then((result) => {
+        handleDecals(type, result);
+        setActiveEditorTab("");
+      })
+  }
+
   return (
     <AnimatePresence>
       {!snap.intro && (
